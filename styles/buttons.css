@@ -17,7 +17,7 @@
 
      background: var(--btn-bg-color);
      color: var(--btn-color);
-    transition: 1s;
+
 }
 
 .btn-sm {
@@ -32,13 +32,14 @@
     font-size: 1.125rem;
     padding:1rem 2rem;
 }
+
 .btn:hover {
-    transition: 1s;
-    --btn-bg-color: linear-gradient(
-        90deg,
-        var(--brand-color-primary) 0%,
-        var(--brand-color-secondary) 100%
-    ) ;
+    --btn-bg-color: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
+    --btn-color: var(--surface-color);
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    color: var(--btn-color);
+    
 }
 .btn[aria-label] {
     position: relative;
