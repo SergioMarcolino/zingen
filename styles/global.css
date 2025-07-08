@@ -94,6 +94,10 @@ a:hover {
 ul[role='list']{
     list-style: none;
 }
+img{
+    max-width: 100%;
+    display: inline-block;
+}
 /*afeta como sera mostrato a font size de acordo com o parametro dado no @media, nesse caso se o valor de largura for maioe ou igual a 80em aplica os o que estiver entre chaves*/
 
 @media(width >= 80em){
