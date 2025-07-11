@@ -43,12 +43,12 @@
 }
 .btn[aria-label] {
     position: relative;
-
+    
     &::before {
         content: "";
         position: absolute;
         border-radius: inherit;
-        inset: 1.5px;
+        inset: 1px;
         background-color: var(--btn-color);
         
     }
